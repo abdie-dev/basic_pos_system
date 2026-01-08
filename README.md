@@ -1,4 +1,3 @@
-# basic_pos_system
-# basic_pos_system
-# basic_pos_system
-# basic_pos_system
+# Basic POS system
+`POS system created using python
+`

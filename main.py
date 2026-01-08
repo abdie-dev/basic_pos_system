@@ -9,21 +9,12 @@ def role(role):
 
 
 def input_barang():
-<<<<<<< HEAD
     barang = input("masukan barang : ").strip().lower()
     jumlah = int(input("masukan jumlah : "))
     if barang in gudang["nama"] and jumlah <= gudang["stok"]:
         print(
             "barang {a} tersedia dan stok nya tersedia {b} lagi".format(
                 a=gudang["nama"], b=gudang["stok"] - jumlah
-=======
-    barang = input("masukan barang").strip().lower()
-    jumlah = int(input("masukan jumlah : "))
-    if barang in gudang["nama"] and jumlah <= gudang["stok"]:
-        print(
-            "barang {a} tersedia dan stok nya tersedia {b}".format(
-                a=gudang["nama"], b=gudang["stok"]
->>>>>>> 30a4d132d49aec2cb65030b668ba84d234b16011
             )
         )
         transaksi(jumlah)
